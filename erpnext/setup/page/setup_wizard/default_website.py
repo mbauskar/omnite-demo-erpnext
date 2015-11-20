@@ -23,7 +23,7 @@ class website_maker(object):
 			"title": self.company,
 			"published": 1,
 			"header": "<div class='hero text-center'><h1>{0}</h1>".format(self.tagline or "Headline")+\
-				'<p>'+_("This is an example website auto-generated from ERPNext")+"</p>"+\
+				'<p>'+_("This is an example website auto-generated from BCLOUD")+"</p>"+\
 				'<p><a class="btn btn-primary" href="/login">Login</a></p></div>',
 			"description": self.company + ":" + (self.tagline or ""),
 			"css": frappe.get_template("setup/page/setup_wizard/data/sample_home_page.css").render(),

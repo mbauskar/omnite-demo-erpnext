@@ -84,7 +84,7 @@ class EmailDigest(Document):
 					common_msg)
 				if msg_for_this_receipient:
 					frappe.sendmail(recipients=user_id,
-						subject="[ERPNext] [{frequency} Digest] {name}".format(
+						subject="[BCLOUD] [{frequency} Digest] {name}".format(
 							frequency=self.frequency, name=self.name),
 						message=msg_for_this_receipient, bulk=True)
 

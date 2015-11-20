@@ -255,7 +255,7 @@ def create_feed_and_todo():
 	frappe.get_doc({
 		"doctype": "Feed",
 		"feed_type": "Comment",
-		"subject": "ERPNext Setup Complete!"
+		"subject": "BCLOUD Setup Complete!"
 	}).insert(ignore_permissions=True)
 
 def create_email_digest():

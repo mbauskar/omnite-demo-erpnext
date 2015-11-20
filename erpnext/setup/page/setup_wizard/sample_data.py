@@ -84,12 +84,12 @@ def make_issue():
 def make_projects():
 	project = frappe.get_doc({
 		"doctype": "Project",
-		"project_name": "ERPNext Implementation",
+		"project_name": "BCLOUD Implementation",
 	})
 	current_date = frappe.utils.nowdate()
 	project.set("tasks", [
 			{
-				"title": "Explore ERPNext",
+				"title": "Explore BCLOUD",
 				"start_date": frappe.utils.add_days(current_date, 1),
 				"end_date": frappe.utils.add_days(current_date, 2)
 			},
