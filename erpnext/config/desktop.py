@@ -4,67 +4,67 @@ from frappe import _
 def get_data():
 	return {
 		"Accounts": {
-			"color": "#3498db",
+			"color": "#333333",
 			"icon": "octicon octicon-repo",
 			"type": "module"
 		},
 		"Buying": {
-			"color": "#c0392b",
+			"color": "#333333",
 			"icon": "icon-shopping-cart",
 			"icon": "octicon octicon-briefcase",
 			"type": "module"
 		},
 		"HR": {
-			"color": "#2ecc71",
+			"color": "#333333",
 			"icon": "icon-group",
 			"icon": "octicon octicon-organization",
 			"label": _("Human Resources"),
 			"type": "module"
 		},
 		"Manufacturing": {
-			"color": "#7f8c8d",
+			"color": "#333333",
 			"icon": "icon-cogs",
 			"icon": "octicon octicon-tools",
 			"type": "module"
 		},
 		"POS": {
-			"color": "#589494",
+			"color": "#333333",
 			"icon": "icon-th",
 			"icon": "octicon octicon-credit-card",
 			"type": "page",
 			"link": "pos"
 		},
 		"Projects": {
-			"color": "#8e44ad",
+			"color": "#333333",
 			"icon": "icon-puzzle-piece",
 			"icon": "octicon octicon-rocket",
 			"type": "module"
 		},
 		"Selling": {
-			"color": "#1abc9c",
+			"color": "#333333",
 			"icon": "icon-tag",
 			"icon": "octicon octicon-tag",
 			"type": "module"
 		},
 		"CRM": {
-			"color": "#EF4DB6",
+			"color": "#333333",
 			"icon": "octicon octicon-broadcast",
 			"type": "module"
 		},
 		"Stock": {
-			"color": "#f39c12",
+			"color": "#333333",
 			"icon": "icon-truck",
 			"icon": "octicon octicon-package",
 			"type": "module"
 		},
 		"Support": {
-			"color": "#2c3e50",
+			"color": "#333333",
 			"icon": "icon-phone",
 			"icon": "octicon octicon-issue-opened",
 			"type": "module"
 		},
 		"Learn": {
-			"color": "#FCB868",
+			"color": "#333333",
 			"force_show": True,
 			"icon": "icon-facetime-video",
 			"type": "module",

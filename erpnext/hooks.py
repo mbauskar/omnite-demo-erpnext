@@ -57,7 +57,8 @@ website_generators = ["Item Group", "Item", "Sales Partner"]
 
 website_context = {
 	"favicon": 	"/assets/erpnext/images/favicon.png",
-	"splash_image": "/assets/erpnext/images/splash.png"
+	# "splash_image": "/assets/erpnext/images/splash.png"
+	"splash_image": "/assets/erpnext/images/BTC_Logo.png"
 }
 
 website_route_rules = [
